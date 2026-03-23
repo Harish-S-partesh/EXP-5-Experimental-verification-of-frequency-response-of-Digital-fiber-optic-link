@@ -1,13 +1,16 @@
 
-Exp 5 Experimental verification of frequency response of Digital fiber optic link
-# Digital Fiber Optic Link Analysis (600nm)
-
-## AIM
-To analyze the relationship between input and received signal of a 600nm fiber optic cable using digital link.
+# Exp 5 Experimental verification of frequency response of Digital fiber optic link(600nm)
 
 ---
 
+## AIM
+---
+To analyze the relationship between input and received signal of a 600nm fiber optic cable using digital link.
+
+
+
 ## EQUIPMENTS REQUIRED
+---
 -	Link-B Kit with power supply.
 -	Patch chords.
 -	20MHz Dual Channel Oscilloscope.
@@ -15,10 +18,10 @@ To analyze the relationship between input and received signal of a 600nm fiber o
 -	1 Meter Fiber Cable.
 
 
----
+
 
 ## THEORY
-
+---
 Fiber optic links can be used for transmission of digital as well as analog signals. Basically a fiber optic link contains three main elements, a transmitter, an optical fiber and a receiver. The transmitter module takes the input signal in electrical form and then transforms it into optical (light) energy containing the same information. The optical fiber is the medium which takes the energy to the receiver. At the receiver light is converted back into electrical form with the same pattern as originally fed to the transmitter.
 
 TRANSMITTER:
@@ -31,10 +34,10 @@ SFH-551V is a digital optodetector. It delivers a digital output, which can be p
 
 The photodiode converts the detected light into a photocurrent. With the aid of an integrated lens the light emanating from the plastic Fiber is almost entirely focused on the surface of the diode. At the next stage the trans-impedance amplifier converts the photocurrent into a voltage. In the comparator, the voltage is compared to a reference voltage. In over to ensure good synchronism between the reference and the trans- impedance output voltage, the former is derived from a second circuit of a similar kind, which incorporates a “blind” photodiode. The comparator derives a level shifter with an open collector output stages. Here a catch diode (similar to Schottky-TTL) prevents the saturation of the output transistor, thus limiting the output voltage to the supply voltage.
 
----
+
 
 ## PROCEDURE
-
+---
 -	Connect the power supply with proper polarity to the kit link-B and switch it on.
 -	Keep all Switch Faults in OFF position.
 -	Keep switch SW8 towards TX position.
@@ -64,30 +67,34 @@ The photodiode converts the detected light into a photocurrent. With the aid of 
  
  <img width="838" height="303" alt="image" src="https://github.com/user-attachments/assets/8d9bec6a-254a-428d-80f3-5e453cef0e62" />
 
----
+
 
 
 ## BLOCK DIAGRAM
-
-*(Insert block diagram here)*
-
 ---
+<img width="376" height="273" alt="image" src="https://github.com/user-attachments/assets/16bd9bd8-7ca0-4fe4-805c-836e7d2393be" />
+
+
 
 ## TABULATION  
+---
 **Transmission through Digital Link**
 
-| Frequency (Hz) | Output Signal Amplitude (Vo) | Gain = Vo/Vi | Gain in dB |
-|----------------|------------------------------|--------------|------------|
-|                |                              |              |            |
+<img width="1516" height="1202" alt="image" src="https://github.com/user-attachments/assets/7825f399-1c82-442b-9572-f0721d79c526" />
 
+## MODEL GRAPH 
 ---
 
-## MODEL GRAPH
+<img width="1041" height="520" alt="image" src="https://github.com/user-attachments/assets/b9c2fd5c-84ae-4b0b-8c66-525b838c7397" />
 
-*(Insert model graph here)*
-
+## GRAPH
 ---
+<img width="1600" height="1292" alt="image" src="https://github.com/user-attachments/assets/e0a28984-17f5-4caf-ae32-eae8acce2ed5" />
+
+
+
+
 
 ## RESULT
-
-*(Summarize observations and conclusions here)*
+---
+The digital fiber optic link successfully transmits signals up to a certain frequency limit, beyond which signal distortion occurs, indicating the bandwidth limitation of the system.
